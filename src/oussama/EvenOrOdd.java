@@ -2,6 +2,7 @@ package oussama;
 
 public class EvenOrOdd {
 
+
     public static void main(String[] args) {
         evenOrOdd(5);
         evenOrOdd(2);
@@ -22,4 +23,5 @@ public class EvenOrOdd {
 
            }
        }
-    }
+}
+
