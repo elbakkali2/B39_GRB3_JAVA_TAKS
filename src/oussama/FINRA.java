@@ -3,9 +3,12 @@ package oussama;
 public class FINRA {
     public static void main(String[] args) {
 
-        fINRA(1000);
+        fINRA(0);
     }
     public static void fINRA(int num){
+        if (num == 0){
+            System.out.println(num);
+        }
         for (int i = 1; i <= num; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print("FINRA");
