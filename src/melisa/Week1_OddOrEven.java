@@ -1,7 +1,7 @@
 package melisa;
 
 public class Week1_OddOrEven {
-
+/*
     public static void main(String[] args) {
 
         oddOrEven(7);
@@ -27,7 +27,7 @@ public class Week1_OddOrEven {
             System.out.println(number + " is odd.");
         }
 
-    }
+    }*/
 }
 
 
