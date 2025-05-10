@@ -2,6 +2,12 @@ package michael;
 
 public class OddOrEven {
     public static void main(String[] args) {
+
+        /*
+        This is RIGHT OddOrEven class!!!
+        This is RIGHT OddOrEven class!!!
+        This is RIGHT OddOrEven class!!!
+         */
         oddOrEven(8);
 
         oddOrEven(0);
