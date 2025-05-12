@@ -2,32 +2,33 @@ package Aisha;
 
 public class Finra {
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            printFinra(0);
-
-
+        printFinra(30);
 
 
+    }
+    public static void printFinra(int num) {
+        if (num <= 0) {
+            System.out.println("Invalid number");
+            return;
         }
 
-        public static void  printFinra(int num){
-     if(num<=0){
-         System.out.println("invalid number");
-         return;
-     }
-
-            if(num%3==0&&num%5==0){
-                System.out.println("FINRA");
-            }else if(num%5==0) {
-                System.out.println("RA");
-            }else if(num%3==0 ){
-                System.out.println("FIN");
-
+        for (int i = 1; i <= num; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                System.out.print("FINRA ");
+            } else if (i % 3 == 0) {
+                System.out.print("FIN ");
+            } else if (i % 5 == 0) {
+                System.out.print("RA ");
+            } else {
+                System.out.print(i + " ");
             }
+        }
+    }
 
-        }
-        }
+
+}
 
 
 /*
