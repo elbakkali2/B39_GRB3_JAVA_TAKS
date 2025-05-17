@@ -2,16 +2,16 @@ package victorbenitez;
 
 public class ReverseNegativeNumber {
 
-    public static int reverseNegative(int number) {
-        if (number >= 0) throw new IllegalArgumentException("The number must be negative.");
-
-        String reversed = new StringBuilder(String.valueOf(-number)).reverse().toString();
-        return -Integer.parseInt(reversed);
+    public static void main(String[] args) {
+        System.out.println(reverseNegative(-125));
     }
 
-    public static void main(String[] args) {
-        int number = -125;
-        System.out.println("number = " + reverseNegative(number));
+    public static int reverseNegative(int number) {
+        if (number >= 0) {
+            throw new IllegalArgumentException("The number must be negative.");
+        }
+        String reversed = new StringBuilder(String.valueOf(-number)).reverse().toString();
+        return -Integer.parseInt(reversed);
     }
 }
 
