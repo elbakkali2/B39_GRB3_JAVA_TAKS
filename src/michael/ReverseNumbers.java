@@ -6,13 +6,16 @@ public class ReverseNumbers {
 
     }
     public static int reverseNegative(int num) {
-        String numStr = String.valueOf(num);
-        String digitsOnly = numStr.substring(1);
+      if(num < 0) {
 
-        StringBuilder sb = new StringBuilder(digitsOnly);
-        sb.reverse();
+            String numStr = String.valueOf(num);
+            String digitsOnly = numStr.substring(1);
 
-        return Integer.parseInt("-" + sb.toString());
-    }
+            StringBuilder sb = new StringBuilder(digitsOnly);
+            sb.reverse();
+
+            return Integer.parseInt("-" + sb.toString());
+        }
+        return num;
 
 }
