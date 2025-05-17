@@ -17,5 +17,6 @@ public class ReverseNumbers {
             return Integer.parseInt("-" + sb.toString());
         }
         return num;
+    }
 
 }
