@@ -3,6 +3,8 @@ package michael;
 public class ReverseNumbers {
     public static void main(String[] args) {
         int num = -125;
+        System.out.println(reverseNegative(-453));
+
                 /*
              Number -- Reverse negative number
              Write a return method that can reverse negative number and return it as int
