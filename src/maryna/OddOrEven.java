@@ -1,4 +1,4 @@
-package maryna;
+package Maryna;
 
 public class OddOrEven {
 
