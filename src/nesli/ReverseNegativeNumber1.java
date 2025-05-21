@@ -2,7 +2,7 @@ package nesli;
 
 import java.util.Scanner;
 
-public class ReverseNegativeNumber {
+public class ReverseNegativeNumber1 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
