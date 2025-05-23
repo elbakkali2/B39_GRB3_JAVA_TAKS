@@ -1,6 +1,12 @@
 package woodson;
 
 public class ReverseNegativeNumber {
+    /*
+Number -- Reverse negative number
+Write a return method that can reverse negative number and return it as int
+Sample: number= -125
+        result= -521
+ */
 
 
         public static int reverseNegative(int number) {
@@ -16,10 +22,5 @@ public class ReverseNegativeNumber {
         }
     }
 
-/*
-Number -- Reverse negative number
-Write a return method that can reverse negative number and return it as int
-Sample: number= -125
-        result= -521
- */
+
 
