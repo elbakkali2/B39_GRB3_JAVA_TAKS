@@ -3,9 +3,9 @@ package oussama;
 public class FINRA {
     public static void main(String[] args) {
 
-        fINRA(0);
+        FINRA(1000);
     }
-    public static void fINRA(int num){
+    public static void FINRA(int num){
         if (num == 0){
             System.out.println(num);
         }
