@@ -5,8 +5,9 @@ public class ReverseNumbers {
         System.out.println(reverseNegative(-125));
 
     }
+
     public static int reverseNegative(int num) {
-      if(num < 0) {
+        if (num < 0) {
 
             String numStr = String.valueOf(num);
             String digitsOnly = numStr.substring(1);
@@ -20,3 +21,4 @@ public class ReverseNumbers {
     }
 
 }
+
