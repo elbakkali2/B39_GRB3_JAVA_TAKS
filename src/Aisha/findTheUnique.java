@@ -1,9 +1,6 @@
 package Aisha;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class findTheUnique {
-
 
     /*
     Find the unique
@@ -12,33 +9,34 @@ Ex:  unique("AAABBBCCCDEF")  ==>  "DEF";
      */
 
 
-    public static String findUnique(String str){
+        public static String findUnique(String str){
 
-        String result="";
+            String result="";
 
-        for (int i = 0; i < str.length(); i++) {
-            char ch=str.charAt(i);
-            int count=0;
+            for (int i = 0; i < str.length(); i++) {
+                char ch=str.charAt(i);
+                int count=0;
 
 
-            for(int j=0;j<str.length();j++){
-                if(ch==str.charAt(j)){
-                    count++;
+                for(int j=0;j<str.length();j++){
+                    if(ch==str.charAt(j)){
+                        count++;
+                    }
+
                 }
+                if(count==1){
+                    result+=ch;
+                }
+            }
 
-            }
-            if(count==1){
-                result+=ch;
-            }
+            return result;
+
+
         }
 
-        return result;
+        public static void main(String[] args) {
+            System.out.println("findUnique(\"AAABBBCCCDEF\") = " + findUnique("AAABBBCCCDEF"));
 
-
+        }
     }
 
-    public static void main(String[] args) {
-        System.out.println("findUnique(\"AAABBBCCCDEF\") = " + findUnique("AAABBBCCCDEF"));
-        
-    }
-}
