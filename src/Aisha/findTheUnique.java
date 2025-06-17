@@ -25,6 +25,7 @@ Ex:  unique("AAABBBCCCDEF")  ==>  "DEF";
                 if(ch==str.charAt(j)){
                     count++;
                 }
+
             }
             if(count==1){
                 result+=ch;
