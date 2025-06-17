@@ -39,5 +39,6 @@ Ex:  unique("AAABBBCCCDEF")  ==>  "DEF";
 
     public static void main(String[] args) {
         System.out.println("findUnique(\"AAABBBCCCDEF\") = " + findUnique("AAABBBCCCDEF"));
+        
     }
 }
