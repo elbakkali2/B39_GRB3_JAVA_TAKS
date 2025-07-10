@@ -10,7 +10,7 @@ public class findMinimum {
 //    number from an int Array
 
 
-    public static int findMinimum(int[] num) {
+    public static int findMinimum1(int[] num) {
 
         if(num==null ||num.length==0){
             System.err.println("Int Array is null or empty ");
@@ -37,7 +37,7 @@ public class findMinimum {
     public static void main(String[] args) {
 
      int[] numbers={1,2,3,4,-6,8,9};
-        System.out.println("The minimum number is : "  +findMinimum(numbers) );
+        System.out.println("The minimum number is : "  +findMinimum1(numbers) );
 
     }
 
