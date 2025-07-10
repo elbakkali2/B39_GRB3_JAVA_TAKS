@@ -23,6 +23,8 @@ public class findMinimum {
 
             if(num[i]<min){
                 num[i]=min;//update min
+
+
             }
 
 
