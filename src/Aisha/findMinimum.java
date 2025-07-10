@@ -1,6 +1,5 @@
 package Aisha;
 
-import java.sql.SQLOutput;
 
 public class findMinimum {
 
