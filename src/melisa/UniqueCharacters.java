@@ -16,7 +16,7 @@ public class UniqueCharacters {
         for (int i = 0; i < input.length(); i++) {
             char ch = input.charAt(i);
 
-            if (input.indexOf(ch) == input.lastIndexOf(ch)){
+            if (input.indexOf(ch) == input.lastIndexOf(ch)){ // If the first time this character appears is also the last time, then it appears only once
                 result.append(ch);
 
             }
