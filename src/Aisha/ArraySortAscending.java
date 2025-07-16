@@ -11,7 +11,7 @@ public class ArraySortAscending {
 //        arr = Sort(arr);         ==>{ 7, 8, 9, 10};
 
         int[]arr={10, 9, 8, 7};
-        arr=sortArrayAscending(arr);
+        sortArrayAscending(arr);
 
         System.out.println("Sorted Array : ");
 
