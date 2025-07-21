@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class SortArrayAscending {
     public static void main(String[] args) {
-        System.out.println("Array sorted in ascending order: " + Arrays.toString(sortAscending(3, 5, -6, 19, 10, 29)));
+
+        System.out.println("Array sorted in ascending order: " + Arrays.toString(sortAscending(3, 5, -6, 19, 10, 29, 12)));
     }
 
     public static int[] sortAscending(int... arr) {
