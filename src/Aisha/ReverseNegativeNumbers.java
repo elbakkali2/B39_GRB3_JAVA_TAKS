@@ -24,6 +24,9 @@ public class ReverseNegativeNumbers {
         int result=reverseNegativeNumber(number);
         System.out.println("result = " + result);
 
+
+
+
     }
 
 }
