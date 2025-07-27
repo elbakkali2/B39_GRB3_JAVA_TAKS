@@ -13,8 +13,8 @@ import java.util.Arrays;
 public class UniqueArraySumUpZero {
     public static void main(String[] args) {
         int N=10;
-        int[] a =sumZero(N);
-        System.out.println("Unique integers = " + Arrays.toString(a));
+
+        System.out.println("Unique integers = " + Arrays.toString(sumZero(N)));
 
     }
     public static int[] sumZero(int N) {
