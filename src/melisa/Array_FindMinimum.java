@@ -19,7 +19,7 @@ public class Array_FindMinimum {
 
     public static void main(String[] args) {
 
-        int[] arr = {5, 8, -5, 3, 1};
+        int[] arr = {5, 8, -5, 3, 1, 0};
 
         System.out.println("Minimum number: " + findMinimum(arr));
 
